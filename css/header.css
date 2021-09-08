@@ -48,7 +48,7 @@ a:hover {
 .hero {
     height: 100vh;
     width: 100%;
-    background: #eb4d55;
+    background-image: linear-gradient(to bottom right, #200B85, #B916C4, #B916C4);
 }
 
 .site-navbar {
