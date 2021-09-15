@@ -54,7 +54,11 @@
     MEDIA
 ========================================================================== */
 
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+    .hero .container {
+        margin-top: 100px;
+    }
+}
 
 @media only screen and (min-width: 992px) {
     h1 {
