@@ -1,0 +1,66 @@
+/* ==========================================================================
+    GERAL
+========================================================================== */
+
+.img-logo {
+    height: 50px;
+}
+
+.img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero,
+.btn-menu a {
+    color: #fff;
+}
+
+
+/* ==========================================================================
+    BANNER
+========================================================================== */
+
+.hero {
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    background-image: linear-gradient(180deg, rgba(16, 24, 32, .85), rgba(16, 24, 32, .85)), url(../imgs/bg-sublime-se-personalizados.jpg);
+}
+
+.title-banner {
+    font-weight: 600;
+    padding: 5px 0px;
+}
+
+.desc-banner {
+    font-weight: 200;
+    line-height: 1.5rem;
+}
+
+.btn-menu {
+    background-color: #E20682;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+/* ==========================================================================
+    MEDIA
+========================================================================== */
+
+@media only screen and (max-width: 991px) {}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .btn-menu {
+        width: 190px;
+    }
+}
