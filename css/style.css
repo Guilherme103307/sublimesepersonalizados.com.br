@@ -7,7 +7,7 @@
 }
 
 .img {
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -47,6 +47,70 @@
     padding: 10px 0px;
     font-weight: 600;
     margin-top: 20px;
+}
+
+.fa-bars,
+.fa-instagram,
+.fa-whatsapp {
+    font-size: 20px;
+}
+
+.site-menu-toggle {
+    margin: auto;
+}
+
+
+/* ==========================================================================
+     Lanchonete
+========================================================================== */
+
+.bg-sobreNos {
+    background-image: url(../imgs/lampada-bg-sublime-se-personalizados.jpg);
+    height: 400px;
+    display: flex;
+}
+
+.title-sobreNos {
+    color: #000;
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.section-sobreNos {
+    overflow-x: clip;
+    width: 67%;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 25%);
+    margin: auto;
+}
+
+.section-sobreNos .row {
+    background-color: #fff;
+}
+
+
+/* ==========================================================================
+    Sobre Nós
+========================================================================== */
+
+.bg-logo {
+    height: 400px;
+    background-image: url(../imgs/logo-sublime-se-personalizados.jpeg);
+}
+
+.desc-sobreNos p {
+    color: #696969;
+}
+
+
+/* ==========================================================================
+     Rodapé
+========================================================================== */
+
+.footer {
+    background-color: #1d262d;
 }
 
 

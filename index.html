@@ -33,15 +33,21 @@
         <div class="site-mobile-menu-body"></div>
     </div>
 
-    <header class="site-navbar site-navbar-target" role="banner">
+    <header class="site-navbar site-navbar-target" id="menu" role="banner">
         <div class="container-fluid">
             <div class="row align-items-center position-relative">
                 <div class="col-11 menu-nav text-right">
-                    <span class="d-inline-block d-lg-none">
-                        <a href="#" class="site-menu-toggle js-menu-toggle py-5">
+                    <div class="d-flex d-lg-none">
+                        <a href="#" class="site-menu-toggle">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="site-menu-toggle">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="site-menu-toggle js-menu-toggle">
                             <i class="fas fa-bars"></i>
-                    </a>
-                    </span>
+                        </a>
+                    </div>
 
                     <nav class="site-navigation ml-auto d-none d-lg-block" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav ml-auto ">
@@ -76,6 +82,55 @@
             </div>
         </div>
     </section>
+
+
+    <!----------------------------->
+    <!--       Sobre Nós        -->
+    <!----------------------------->
+
+    <section class="sobre-nos container">
+        <div class="row">
+            <div class="col-12 col-md-4 bg-logo img"></div>
+            <div class="col-12 col-md-8 p-5 desc-sobreNos">
+                <h2 class="title-sobreNos">Sobre Nós</h2>
+                <p>
+                    Criada no ano de 2020, a Sublime-se Personalizados é uma iniciativa formiguense no ramo da customização. A loja online surgiu da ideia de inovar nos seguimentos da moda, decoração e customização através da estamparia. Nosso intuito sempre foi tornar a
+                    ideia de nossos clientes em algo real e de boa qualidade!</p>
+
+                <p> Hoje, após pouco mais de um ano de funcionamento, contamos com quase dois mil seguidores no instagram e muita vontade de atender seus pedidos.</p>
+
+                <p> Tá esperando o que? Dá uma conferida no nosso Insta :) </p>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------->
+    <!--       Sobre Rodapé      -->
+    <!----------------------------->
+
+    <section class="footer container-fluid">
+        Rodapé
+    </section>
+
+    <!----------------------------->
+    <!--       Javascript      -->
+    <!----------------------------->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+        jQuery(function() {
+            jQuery(window).scroll(function() {
+                if (jQuery(this).scrollTop() > 50) {
+                    $("#menu").addClass("menu-diferente");
+                    $("#menu").removeClass("menu-diferente-saida");
+                } else {
+                    $("#menu").addClass("menu-diferente-saida");
+                    $("#menu").removeClass("menu-diferente");
+                }
+            });
+        });
+    </script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
