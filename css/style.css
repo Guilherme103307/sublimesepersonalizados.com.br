@@ -25,7 +25,6 @@
 .hero {
     background-repeat: no-repeat;
     background-position: left;
-    background-attachment: fixed;
     background-size: cover;
     display: flex;
     background-image: linear-gradient(180deg, rgba(16, 24, 32, .85), rgba(16, 24, 32, .85)), url(../imgs/bg-sublime-se-personalizados.jpg);

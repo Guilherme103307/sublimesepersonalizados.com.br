@@ -50,6 +50,12 @@
         width: 100%;
     }
     
+    @media (max-width: 320px) {
+        .hero {
+            height: 90vh
+        }
+    }
+    
     .site-navbar {
         margin-bottom: 0px;
         z-index: 1999;
