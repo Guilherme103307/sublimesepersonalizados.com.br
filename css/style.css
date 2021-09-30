@@ -2,10 +2,6 @@
     GERAL
 ========================================================================== */
 
-.img-logo {
-    height: 50px;
-}
-
 .img {
     background-size: cover;
     background-position: center;
@@ -15,6 +11,20 @@
 .hero,
 .btn-menu a {
     color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #333;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #E20682;
+    border-radius: 20px;
 }
 
 
@@ -38,6 +48,7 @@
 .desc-banner {
     font-weight: 200;
     line-height: 1.5rem;
+    padding: 20px 0;
 }
 
 .btn-menu {
@@ -121,7 +132,7 @@
 
 @media only screen and (min-width: 992px) {
     h1 {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .btn-menu {
         width: 190px;
